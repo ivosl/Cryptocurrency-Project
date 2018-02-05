@@ -1,0 +1,217 @@
+.body {
+    font-family: "Helvetica Neue","Helvetica","Arial","sans-serif";
+    font-size: 20px;
+    line-height: 1.42857143;
+    background-color: whitesmoke;
+    
+}
+
+.logo {
+    font-family: 'Rammetto One', cursive;
+
+}
+
+.row {
+
+    margin: auto;
+}
+
+.lead {
+    font-family: 'Montserrat', sans-serif;
+
+}
+.homeandnews {
+    margin: 10px;
+}
+
+.banner {
+    width: 100%;
+    display: block;
+}
+
+.banner > .banner-image {
+    width: 100%;
+    display: block;
+}
+
+
+/* Ivo */
+
+.jumbotron {
+    box-sizing: border-box;
+    height: 600px;
+    background-color: rgb(46, 46, 46);
+    color: white;
+    background-image: url(../images/spiration-dark.png);
+  }
+
+  .main-button-container {
+    margin-top: 175px;
+    max-width: 610px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .timer-p {
+    margin-top: 40px;
+    color: white;
+  }
+
+  .text-center {
+      color: gold;
+  }
+  
+  .answer:hover {
+    background:gold;
+  }
+  
+  .answer {
+    padding-top: 7px;
+    height: 45px;
+    color: black;
+    padding-left: 14px;
+    background-color: white;
+    border-radius: 4px;
+  }
+  
+  .img-wrong {
+    margin-top: 40px;
+  }
+  
+  .first-answer {
+    margin-top: 40px;
+  }
+  
+  .reset-button {
+    margin-top: 40px;
+  }
+  
+  .summary-correct {
+    margin-top: 40px;
+  }
+ .btn-primary {
+    background-color: gold;
+    color: black;
+    border-color: white;
+}
+
+
+.text-center2 {
+    color: darkblue;
+    font-weight: bold;
+    background-image: src="https://www.infowizard.co/wp-content/uploads/2017/08/cryptocurrencies.png";
+                
+}
+/* charts tickers and news */
+.ticker {
+    float:left;
+    margin-left: 10px;
+    margin-bottom: 40px;
+  }
+  .symbols {
+    float:left;
+  }
+  .charts {
+    margin: 10px 0 0 40px;
+    float:left;
+  }
+  .news {
+    float:right;
+  }
+  
+  #BTCp:hover{
+    color: rgb(54, 162, 235);
+  }
+  #ETHp:hover{
+    color: rgb(255, 99, 132);
+  }
+  #XRPp:hover{
+    color: rgb(255, 206, 86);
+  }
+  #BCHp:hover{
+    color:rgb(153, 102, 255);
+  }
+  #LTCp:hover{
+    color:rgb(75, 192, 192);
+  }
+  
+  
+  #ChartBTC, #ChartETH, #ChartXRP, #ChartBCH, #ChartLTC {
+    width: 350px;
+    height: 350px;
+  } 
+
+  .featurette-heading {
+    font-size: 30px;
+    color: blue;
+  }
+
+  /* Dropdown Button */
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 5px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: gold;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+input {
+  color: black;
+}
+
+#tracker {
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+#date {
+  background-color: gold;
+}
+
+#gif-form{
+  margin-top: 70px;
+}
+
+#result {
+  color:yellow;
+}
+
+label {
+  font-size:23px;
+}
