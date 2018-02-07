@@ -1,10 +1,12 @@
+
+
 var config = {
-  apiKey: "AIzaSyByTyY0xDLiY4IM3j3mpLYh_XUVyKnSPy0",
-  authDomain: "crypto-fun-1750c.firebaseapp.com",
-  databaseURL: "https://crypto-fun-1750c.firebaseio.com",
-  projectId: "crypto-fun-1750c",
-  storageBucket: "crypto-fun-1750c.appspot.com",
-  messagingSenderId: "899224804893"
+  apiKey: "AIzaSyAEbMCbzELS1uWIKDGTtx6Dg8hBSYbGZ-0",
+  authDomain: "crypto-project-db1bb.firebaseapp.com",
+  databaseURL: "https://crypto-project-db1bb.firebaseio.com",
+  projectId: "crypto-project-db1bb",
+  storageBucket: "",
+  messagingSenderId: "893514209015"
 };
 
 firebase.initializeApp(config);
@@ -24,7 +26,7 @@ function validateForm() {
 
 $(".guess-date").on("click", function (event) {
 
-  var guess = $("#investmentInput").val().trim();
+  var guess = $("#investmentInput2").val().trim();
   var currency = $("#guess-dropbtn").text();
   var currencyArray = [];
   var currentURL = "https://min-api.cryptocompare.com/data/price?fsym=" + currency + "&tsyms=USD";
@@ -33,6 +35,8 @@ $(".guess-date").on("click", function (event) {
   validateForm();
 
   event.preventDefault()
+
+  console.log(guess);
 
   console.log(currency);
 
@@ -102,6 +106,7 @@ database.ref("updated").orderByChild("time2").limitToLast(3).on("child_added", f
       // storing the snapshot.val() in a variable for convenience
         var sv = snapshot.val();
 
+      console.log(sv.guess);
       console.log(sv);
       //console.log(moment().format('MMMM Do YYYY, h:mm:ss a'));
 
